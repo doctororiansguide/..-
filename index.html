@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctororians Guide - Free MDCAT Preparation Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-stethoscope"></i>
+                <h1>Doctororians<span>Guide</span></h1>
+                <p class="tagline">Free MDCAT Preparation Platform</p>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+                <a href="quiz.html"><i class="fas fa-brain"></i> Quizzes</a>
+                <a href="pdfs.html"><i class="fas fa-file-pdf"></i> PDFs</a>
+                <a href="tips.html"><i class="fas fa-lightbulb"></i> Tips</a>
+                <a href="test-strategy.html"><i class="fas fa-tasks"></i> Test Strategy</a>
+                <button class="btn-account" id="accountBtn">
+                    <i class="fas fa-user"></i> Create Account
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Ace Your MDCAT 2025</h2>
+                <p class="hero-subtitle">Pakistan's #1 Free MDCAT Preparation Platform with 10,000+ MCQs, Topic-wise PDFs, and Expert Strategies</p>
+                <a href="quiz.html" class="btn-start-quiz">
+                    <i class="fas fa-play-circle"></i> START FREE QUIZ NOW
+                </a>
+                <p class="hero-stats">
+                    <span><i class="fas fa-users"></i> 5,000+ Active Students</span>
+                    <span><i class="fas fa-question-circle"></i> 15,000+ Practice Questions</span>
+                    <span><i class="fas fa-chart-line"></i> 92% Success Rate</span>
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-illustration.svg" alt="MDCAT Preparation">
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Options -->
+    <section class="dashboard-options">
+        <div class="container">
+            <h2><i class="fas fa-th-large"></i> Your Preparation Dashboard</h2>
+            <div class="options-grid">
+                
+                <!-- Quiz Card -->
+                <div class="option-card" onclick="window.location.href='quiz.html'">
+                    <div class="card-icon quiz">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Interactive Quizzes</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Chapter-wise MCQs</li>
+                        <li><i class="fas fa-check-circle"></i> Full-length Mock Tests</li>
+                        <li><i class="fas fa-check-circle"></i> Previous Years Papers</li>
+                        <li><i class="fas fa-check-circle"></i> Timed Practice Mode</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="count">1,200+ Quizzes</span>
+                        <span class="btn-access">Access Now <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </div>
+
+                <!-- PDFs Card -->
+                <div class="option-card" onclick="window.location.href='pdfs.html'">
+                    <div class="card-icon pdf">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>Study PDFs</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Short Notes & Summaries</li>
+                        <li><i class="fas fa-check-circle"></i> Topic-wise Formulas</li>
+                        <li><i class="fas fa-check-circle"></i> Diagram Collections</li>
+                        <li><i class="fas fa-check-circle"></i> Important Tables</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="count">500+ PDFs</span>
+                        <span class="btn-access">Download <i class="fas fa-download"></i></span>
+                    </div>
+                </div>
+
+                <!-- Tips Card -->
+                <div class="option-card" onclick="window.location.href='tips.html'">
+                    <div class="card-icon tips">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Tips for Better Score</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Time Management</li>
+                        <li><i class="fas fa-check-circle"></i> Memory Techniques</li>
+                        <li><i class="fas fa-check-circle"></i> Stress Reduction</li>
+                        <li><i class="fas fa-check-circle"></i> Exam Day Strategy</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="count">Proven Methods</span>
+                        <span class="btn-access">Learn Tips <i class="fas fa-graduation-cap"></i></span>
+                    </div>
+                </div>
+
+                <!-- Test Strategy Card -->
+                <div class="option-card" onclick="window.location.href='test-strategy.html'">
+                    <div class="card-icon strategy">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Test Attempt Strategy</h3>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Section-wise Approach</li>
+                        <li><i class="fas fa-check-circle"></i> Guessing Techniques</li>
+                        <li><i class="fas fa-check-circle"></i> Negative Marking Tricks</li>
+                        <li><i class="fas fa-check-circle"></i> Speed & Accuracy</li>
+                    </ul>
+                    <div class="card-footer">
+                        <span class="count">Expert Guidance</span>
+                        <span class="btn-access">View Strategy <i class="fas fa-eye"></i></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Start Quiz -->
+    <section class="quick-quiz">
+        <div class="container">
+            <div class="quiz-cta">
+                <div>
+                    <h2><i class="fas fa-rocket"></i> Start Your First Quiz Now!</h2>
+                    <p>Test your knowledge with our specially curated starter quiz</p>
+                </div>
+                <a href="quiz.html" class="btn-main-quiz">
+                    <i class="fas fa-play"></i> START QUIZ
+                </a>
+            </div>
+            
+            <div class="subject-buttons">
+                <button class="subject-btn" onclick="startSubjectQuiz('biology')">
+                    <i class="fas fa-dna"></i> Biology (210 MCQs)
+                </button>
+                <button class="subject-btn" onclick="startSubjectQuiz('chemistry')">
+                    <i class="fas fa-flask"></i> Chemistry (180 MCQs)
+                </button>
+                <button class="subject-btn" onclick="startSubjectQuiz('physics')">
+                    <i class="fas fa-atom"></i> Physics (150 MCQs)
+                </button>
+                <button class="subject-btn" onclick="startSubjectQuiz('english')">
+                    <i class="fas fa-language"></i> English (60 MCQs)
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Account Modal -->
+    <div class="modal" id="accountModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2><i class="fas fa-user-plus"></i> Create Your Free Account</h2>
+            <p>Track progress, save quizzes, and get personalized recommendations</p>
+            
+            <form id="signupForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <select required>
+                    <option value="">Select Your Target Year</option>
+                    <option>MDCAT 2025</option>
+                    <option>MDCAT 2026</option>
+                </select>
+                <button type="submit" class="btn-signup">
+                    <i class="fas fa-user-check"></i> Create Free Account
+                </button>
+            </form>
+            
+            <div class="login-link">
+                Already have account? <a href="#">Login Here</a>
+            </div>
+            
+            <div class="benefits">
+                <h4><i class="fas fa-gift"></i> Account Benefits:</h4>
+                <ul>
+                    <li><i class="fas fa-chart-bar"></i> Progress Tracking</li>
+                    <li><i class="fas fa-download"></i> Download All PDFs</li>
+                    <li><i class="fas fa-trophy"></i> Leaderboard Position</li>
+                    <li><i class="fas fa-bell"></i> Weekly Study Plans</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-stethoscope"></i> Doctororians Guide</h3>
+                    <p>Free MDCAT Preparation Platform by Students, for Students</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div>
+                        <h4>Quick Links</h4>
+                        <a href="index.html">Home</a>
+                        <a href="quiz.html">Quizzes</a>
+                        <a href="pdfs.html">PDFs</a>
+                    </div>
+                    <div>
+                        <h4>Resources</h4>
+                        <a href="tips.html">Tips & Tricks</a>
+                        <a href="test-strategy.html">Test Strategy</a>
+                        <a href="about.html">About Us</a>
+                    </div>
+                    <div>
+                        <h4>Legal</h4>
+                        <a href="about.html#privacy">Privacy Policy</a>
+                        <a href="about.html#terms">Terms of Use</a>
+                        <a href="about.html#disclaimer">Disclaimer</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Doctororians Guide. All rights reserved. | Made with <i class="fas fa-heart" style="color:#e74c3c"></i> for Pakistani Medical Aspirants</p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+                              </html>
